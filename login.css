@@ -1,0 +1,90 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-image: url(img/WhatsApp\ Image\ 2022-01-13\ at\ 12.10.11\ PM\ \(2\).jpeg);
+    background-size: 100% 700px;
+}
+form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    width:350px ;
+    height: 420px;
+    background-color: rgb(0, 0, 0,.5);
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+#img{
+    position: absolute;
+    top: -40px;
+    left: 118px;
+    border-radius: 350px;
+}
+h2{
+    color: #fff;
+    text-align: center;
+    margin-top: 90px;
+}
+input[type="email"],[type="password"]{
+    position: absolute;
+    outline: none;
+    border: none;
+    width: 250px;
+    height: 35px;
+    border-bottom: 2px solid #040505;
+    background: none;
+    padding: 5px;
+    color: rgb(236, 236, 236);
+    
+}
+input[type="email"]{
+    top:140px ;
+    left: 50px;
+}
+input[type="password"]{
+    top:210px ;
+    left: 50px;
+}
+input[type="submit"]{
+    position: absolute;
+    top:305px ;
+    left: 110px;
+    width: 130px;
+    height: 35px;
+    background: #000000 ;
+    border: none;
+    outline: none;
+    color:#fff ;
+    border-radius:15px ;
+    font-size:20px ;
+}
+input[type="submit"]:hover{
+    background-color:#fff;
+    color: #0c0f13;
+}
+p{
+    position: absolute;
+    top: 360px;
+    left: 50px;
+    cursor:pointer ;
+    color: #fff ;
+}
+p:hover{
+    color: #416c9c;
+}
+::placeholder{
+    color: #fff;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
